@@ -1,0 +1,22 @@
+version: '2'
+
+services:
+
+  customer:
+    image: benben0101/customer:latest
+    container_name: customerapp
+    ports:
+      - "8081:8081"
+    environment:
+      - SPRING_PROFILES_ACTIVE=
+
+  customerwallet:
+    image: benben0101/customerwallet:latest
+    container_name: customerwalletapp
+    ports:
+      - "8082:8082"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+
+
+
