@@ -3,10 +3,10 @@ spring:
   application:
     name: Courrier-App
   datasource:
-    url: jdbc:mysql://customerdatabase.czg44uy4kppz.eu-north-1.rds.amazonaws.com/courrier
+    url: // replace with path to your database
 
-    username: admin
-    password: Xperiaz123
+    username:
+    password:
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
@@ -24,11 +24,3 @@ server:
   port: 8087
 
 
-
-
-aws:
-  access-key: AKIA6ODU22DK7W3X4R6W
-  secret-key : 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
-  region : eu-north-1
-  s3:
-  bucket-name : bucketscustomerdeliveryapp
