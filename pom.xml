@@ -19,7 +19,14 @@
 		<module>customerservices</module>
 		<module>feigncustomerwallet</module>
         <module>Restaurants</module>
-    </modules>
+		<module>restaurantwallet</module>
+        <module>Order</module>
+		<module>courrierwallet</module>
+		<module>courrierservices</module>
+		<module>feignRestaurantWallet</module>
+		<module>feignOrderconnection</module>
+		<module>feignorderrestaurantwallet</module>
+	</modules>
     <properties>
 		<java.version>21</java.version>
 		<image>benben0101/${project.artifactId}:${project.version}</image>
